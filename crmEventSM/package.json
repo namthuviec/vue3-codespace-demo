@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://namthuviec.github.io/vue3-codespace-demo",
   "scripts": {
-    "dev": "vite --mode=development",
-    "build": "vue-tsc -b && vite build --mode=production",
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build --base=/vue3-codespace-demo/",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
