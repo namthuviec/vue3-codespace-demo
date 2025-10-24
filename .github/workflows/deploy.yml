@@ -8,7 +8,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
-    contents: write   # Cho phép ghi vào repo (push lên gh-pages)
+      contents: write   # Cho phép ghi vào repo (push lên gh-pages)
     defaults:
       run:
         working-directory: crmEventSM   # 👈 chỉ định thư mục chứa code Vue 3
