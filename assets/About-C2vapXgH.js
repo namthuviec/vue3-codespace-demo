@@ -1,0 +1,1 @@
+import{t as e}from"./index-CBNqRufY.js";var t={};function n(e,t){return` About `}var r=e(t,[[`render`,n]]);export{r as default};
